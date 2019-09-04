@@ -1,0 +1,114 @@
+
+h1, h2, h3, h4, h5, h6 {
+  src: url("Satisfy-Regular.ttf") format("ttf");
+  font-family: "Satisfy", cursive, sans-serif;
+  font-size: 40pt;
+}
+
+label{
+    src: url("Poppins-Regular.ttf") format("ttf");
+  font-family: "Poppins", cursive, sans-serif;
+  font-size: 16pt;
+}
+html { 
+  margin:0;
+  padding:0;
+  background: url(background.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  font-family: 'Poppins' !important;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  background: rgba(34, 34, 34, 0.75);
+  color: white;
+  
+}
+
+
+.col-25 {
+  text-align: center;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.round-button {
+	width:30%;
+}
+.round-button-circle {
+    margin-top: 20px;
+    min-width: 50%;
+    max-width: 55%;
+    width: 50%;
+	height:0;
+	padding-bottom: 50%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #ffaa49; 
+    max-width:50%;
+}
+.round-button-circle:hover {
+	background:#dba567;
+}
+.round-button a {
+    display:block;
+    float:left;
+    min-width: 100%;
+    
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+@media screen and (max-width: 50%) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
